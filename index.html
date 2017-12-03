@@ -2,14 +2,43 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Cancha</title> <!-- Para comentar -->
+		<title>Twitter</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
-	</head> 
-
+		<link rel="font" type="font-family" hfet="assets/fonts/Segoe UI Semibold.otf">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	</head>
 
 	<body>
+		<nav>
+			<!--nesecito poner esta imagen de fondo pero aún no lo logro-->
+			<imag src="assets/images/sea.jpg" alt="vista área de playa" class="background-image">
+			<h1>Twitter</h1>
+		</nav>
 
+		<section class="section-1">
+			<h2>My Name</h2>
+			<span>My Profile</span>
+			<hr>
+			<span>Description</span>
+		</section>
 
-		<script type="text/javascript" src="app.js"></script>
+		<section class="section-2">
+				<textarea> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
+				<button class="twittear" onclick="enviar"> </button>
+				<!--a este boton hay que asignarle el evento para que lo que se escriba en la textarea pase a la sección de abajo ya "publicado"-->
+				<contador id="character-counter">> </contador>
+		</seccion>
+
+		<section class="section-3"><!-- esta sección no debe verse en primera instancia en nuestro portal-->
+				<div id="tweet-container"><!-- aquí debería imprimirse el twwet que nos manda el botton de la sección 2 por medio de un evento</div>-->
+				<span id="hour"><!--aquí debe debe mostrarse el resultado de la la function printTime </span>-->
+		 </section>
+
+		 <section class="section-4"><!-- esta sección no debe verse en primera instancia en nuestro portal-->
+ 				<div id="new-tweet-container"><!-- aquí debería imprimirse el nuevo twwet que nos manda el botton de la sección 2 por medio de un evento</div>-->
+ 				<span id="hour"><!--aquí debe mostrarse el resultado de la function printTime--> </span>
+ 		 </section>
+
+		<script type="text/javascript" src="js/app.js"></script>
 	</body>
 </html>
