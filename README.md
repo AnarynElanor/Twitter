@@ -1,9 +1,9 @@
-#Twitter 
+#Twitter
+Reto de código  
 
 ## Objetivo
 
 El reto consiste en replicar el estilo y funcionalidad de una página sencilla en twitter. 
-
 
 ##Proceso
  
