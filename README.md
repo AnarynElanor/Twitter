@@ -1,11 +1,11 @@
-##Twitter 
+#Twitter 
 
-# Objetivo
+## Objetivo
 
 El reto consiste en replicar el estilo y funcionalidad de una página sencilla en twitter. 
 
 
-#Proceso
+##Proceso
  
 1. Identificar secciones del sitio y como abordarlas.
 
