@@ -1,0 +1,62 @@
+body{
+    background-color: #ffff;
+}
+
+h1 {
+  color: #e6ecf0;
+  font-size: 24px;
+  text-align: center;
+  font-family: tahoma;
+  -web-margin-before:  2px;
+  -webkit-margin-after: 2px;
+}
+
+h2  {
+  font size : 14px;
+  color:#000;
+  text align:center;
+}
+
+
+input{
+
+  box-sizing: border-box;
+  margin: 5px  0 15px 0;
+  padding: 5px;
+  width: 100%
+}
+
+
+textarea{
+width: 400px;
+height: 200px;
+border: 1px solid;
+align: center:
+overflow: auto;
+margin: auto;
+}
+
+botonEnviar{
+color:"#90caf9";
+text-align:center;
+display: inline-block;
+font-size: 16px;
+background-color: #CCD1D1;
+font-family: Tahoma;
+}
+
+section{
+margin: auto;
+width:50%;
+border: none;
+padding:10px;
+font-family:Tahoma;
+}
+
+
+article{
+
+  font-family: Tahoma;
+  align-center;
+  align-content: center;
+}
