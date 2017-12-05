@@ -59,7 +59,7 @@ h1 {
 
 /*estilo del boton*/
 input[type="button"] {
-  width: 70px;
+  width: 80px;
   height: 35px;
   margin-left: 10px;
   margin-top: 10px;
@@ -72,9 +72,9 @@ input[type="button"] {
 /*propiedades y estilo del contador*/
 #contador {
   display: inline-block;
-  margin-left: 70%;
-  color: red;
-}
+  margin-left: 40%;
+  font-family: 'Sanchez', serif;
+  }
 
 /*quitamos la propiedad de redimensionar la caja del texarea*/
 textarea{
@@ -109,12 +109,21 @@ hr {
   margin-top: 5%;
   width: 80%;
   height: 30px; /*modificar cuando este el js*/
-  border: 1px solid white; /*modificar cuando este el js*/
+
 }
 
-/*estilos para el div o p del tweet guardado
 
+#twSt{
+  color:white;
+  font-family: 'Sanchez', serif;
+ margin: 0;
+
+}
+
+#tw-impreso {
 width: 100%;
-background; white;
+background: white;
 font-family: 'Sanchez', serif;
-*/
+margin-top: 10px;
+padding: 10px; 
+}
